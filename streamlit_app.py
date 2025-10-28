@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="QR Code Quiz 2", page_icon="🧠")
-st.title("🧩 Interactive College Corps Quiz!")
+st.title("🧩 College Corps Mid-Year Workshop!")
 st.markdown("<h3 style='color:#4CAF50;'>Let's see if you can solve this!</h3>", unsafe_allow_html=True)
 
 question = "Who is the entity that oversees all College Corps Program?"
