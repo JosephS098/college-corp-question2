@@ -3,9 +3,9 @@ import streamlit as st
 st.set_page_config(page_title="Question 1", page_icon="🧠")
 st.title("🧩 Interactive Quiz — Question 1")
 
-question = "What is 5 + 3?"
-choices = ["6", "7", "8", "9"]
-correct_answer = "8"
+question = "Who is the entity that oversees all College Corps Program?"
+choices = ["AmeriCorps", "California Volunteers", "Your University", "The Government"]
+correct_answer = "California Volunteers"
 success_message = "✅ Correct! Great job!"
 try_again_message = "❌ Try again!"
 
