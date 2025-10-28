@@ -3,15 +3,12 @@ import streamlit as st
 st.set_page_config(page_title="Question 1", page_icon="🧠")
 st.title("🧩 Interactive Quiz — Question 1")
 
-# --- EDIT THESE LINES FOR EACH REPO ---
 question = "What is 5 + 3?"
 choices = ["6", "7", "8", "9"]
 correct_answer = "8"
 success_message = "✅ Correct! Great job!"
 try_again_message = "❌ Try again!"
-# --------------------------------------
 
-# Keep state so users can try until correct
 if "answered_correctly" not in st.session_state:
     st.session_state.answered_correctly = False
 
