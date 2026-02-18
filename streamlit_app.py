@@ -25,4 +25,4 @@ if st.button("Submit"):
 
 if st.session_state.answered_correctly:
     st.balloons()
-    st.info("You solved this question! You can close this tab or scan the next QR.")
+    st.info("Find Facilitator for next clue!")
